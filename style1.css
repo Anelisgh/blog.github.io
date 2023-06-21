@@ -1,0 +1,96 @@
+h1 {
+    font-size: 40px;
+    text-align: end;
+    font-family: Lucida Calligraphy, cursive;
+ }
+ 
+  h2 {
+    font-size: 20px;
+    text-align: end;
+    font-family: Lucida Calligraphy, cursive;
+    color: #786052;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #f0c7a4;
+    border: 0.5px solid #f0bfa4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+   
+ }
+ 
+ @media screen and (max-width: 990px)
+ {
+   h2 {
+    font-size: 30px;
+    text-align: end;
+    font-family: Lucida Calligraphy, cursive;
+    color: #786052;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: #f0c7a4;
+    border: 0.5px solid #f0c7a4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 55%;
+ }
+ }
+ 
+ p {
+   font-family: Lucida Calligraphy, cursive;
+   text-align: center;
+   font-size: 25px;
+   color:  #786052;
+ }
+ 
+ body {
+   font-family: "cursive";
+   background-color: #f0bfa4;
+ }
+ 
+ 
+ 
+ .content {
+   display: flex;
+   justify-content: center;
+   align-items:center;
+ }
+ 
+ .content .recipe {
+   flex: 1;
+   margin: 50px 20px;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+   background-color: #f9e4c3;
+ border-radius: 10px;
+ }
+ 
+ 
+ .content .recipe img {
+   width: 100%;
+   heigh: auto;
+ 
+ }
+ img {
+   border-radius: 10px;
+ }
+ 
+ @media screen and (max-width: 650px)
+ {
+   .content {
+     flex-direction: column;
+   }
+ }
+ 
+ 
+ 
+ 
+ .button {
+             background-color: #f3efe9;
+             border: 2px solid #cf7375;
+             color: #cf7375;
+             padding: 5px 10px;
+             text-align: center;
+             display: inline-block;
+             font-size: 15px;
+             margin: 10px 30px;
+             cursor: pointer;
+             border-radius: 10px;
+         }

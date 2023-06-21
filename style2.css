@@ -1,0 +1,104 @@
+body {
+    font-family: "cursive";
+    background-color: #f0bfa4;
+  }
+  
+    h3 {
+    font-size: 20px;
+     text-align: left;
+     font-family: Lucida Calligraphy, cursive;
+  }
+  
+  h4 {
+    font-size: 46px;
+     text-align: center;
+     font-family: Lucida Calligraphy, cursive;
+     margin: auto;
+     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+     background-color: #f0c7a4;
+     border-radius: 24px;
+     padding: 7px;
+     width: 250px;
+  }
+  
+  h5 {
+    font-size: 15px;
+     text-align: left;
+     font-family: Courier New, monospace;
+  }
+  
+  h6 {
+    font-size: 16px;
+     text-align: center;
+     font-family: Courier New, monospace;
+  }
+  
+  
+  .content {
+    text-align: right;
+  }
+  
+  .content .full-recipe {
+    margin: 15px 15px;
+    border-radius: 10px;
+  }
+  
+  .content .full-recipe img {
+    max-width: 30%;
+    heigh: auto;
+    border-radius: 20px;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 990px)
+  {
+    h3 {
+    font-size: 60px;
+     text-align: left;
+     font-family: Lucida Calligraphy, cursive;
+  }
+  
+  h4 {
+    font-size: 56px;
+     text-align: center;
+     font-family: Lucida Calligraphy, cursive;
+     margin: auto;
+     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+     background-color: #f0c7a4;
+     border-radius: 24px;
+     padding: 7px;
+     width: 250px;
+  }
+  
+  h5 {
+    font-size: 26px;
+     text-align: left;
+     font-family: Courier New, monospace;
+  }
+  
+  h6 {
+    font-size: 26px;
+     text-align: center;
+     font-family: Courier New, monospace;
+  }
+  
+  }
